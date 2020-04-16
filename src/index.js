@@ -1,9 +1,8 @@
-import React, {useState, useEffect, useRef, forwardRef, useMemo} from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react';
+import ReactDOM, {createPortal} from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-
 
 
 ReactDOM.render(<App />, document.getElementById('root'));
